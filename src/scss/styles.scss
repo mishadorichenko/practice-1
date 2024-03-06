@@ -4,18 +4,21 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./reset.scss');
+@import url('./vite-promo.scss');
+@import url('./header.scss');
+@import url('./cooking.scss');
+@import url('./harvest.scss');
+@import url('./footer.scss');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: #f3f3f3;
+  background-color: #100f0f;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
